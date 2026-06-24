@@ -1,0 +1,11 @@
+من وسط کار به این نتیجه رسیدم بهتره پروژه رو با جنگو پیش ببرم
+برای  همین ساختار رو تغییر دادم
+و به ترتیب به این شکل پیش میرم
+1. Django Project
+2. PostgreSQL Setup
+3. Custom User Model
+4. Trade Model
+5. CSV Upload
+6. MetaTrader Parser
+7. Statistics Service
+8. Basic Dashboard
