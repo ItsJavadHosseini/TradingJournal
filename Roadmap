@@ -1,0 +1,56 @@
+my road map for develop
+1. Create FastAPI Project
+2. Setup PostgreSQL
+3. CSV Upload Endpoint
+4. MetaTrader Parser
+5. Statistics Engine
+
+
+my project structure
+backend/
+│
+├── app/
+│   │
+│   ├── main.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── security.py
+│   │   └── database.py
+│   │
+│   ├── users/
+│   │   ├── router.py
+│   │   ├── service.py
+│   │   ├── model.py
+│   │   └── schema.py
+│   │
+│   ├── trades/
+│   │   ├── router.py
+│   │   ├── service.py
+│   │   ├── model.py
+│   │   ├── schema.py
+│   │   └── parser.py
+│   │
+│   ├── analytics/
+│   │   ├── router.py
+│   │   ├── service.py
+│   │   ├── metrics.py
+│   │   └── classifiers.py
+│   │
+│   ├── certificates/
+│   │   ├── router.py
+│   │   ├── service.py
+│   │   └── generator.py
+│   │
+│   └── shared/
+│       ├── exceptions.py
+│       ├── responses.py
+│       └── utils.py
+│
+├── tests/
+│
+├── alembic/
+│
+├── requirements.txt
+│
+└── Dockerfile
